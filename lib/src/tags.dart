@@ -85,6 +85,7 @@ class StandardTags extends TagsBase {
       2: 'Reduced-resolution image',
       3: 'Single page of multi-page image',
     }),
+    0x07: _make('YAW'),
     0x0100: _make('ImageWidth'),
     0x0101: _make('ImageLength'),
     0x0102: _make('BitsPerSample'),
